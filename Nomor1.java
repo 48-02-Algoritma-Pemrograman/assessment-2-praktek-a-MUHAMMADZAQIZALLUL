@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Nomor1 {
     public static void fizzBuzz(int n) {
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i <= n; i++) { // Start loop from 0 to include 0
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("0 ");
+                System.out.print("FizzBuzz ");
             } else if (i % 3 == 0) {
                 System.out.print("Fizz ");
             } else if (i % 5 == 0) {
